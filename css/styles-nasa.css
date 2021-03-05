@@ -1,0 +1,59 @@
+body {
+    width: 900px;
+    align-items: center;
+    /* height: 100vh; */
+  }
+
+  header {
+    display: flex;
+    width: 900px;
+    height: 350px;
+    background-image: url(../img/space.jpg);
+    background-size: cover;
+    align-items: center;
+    letter-spacing: 15px;
+    justify-content: center;
+  }
+
+  main {
+    height: 300px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @font-face {
+    font-family: NASA-font;
+    src: url(../css/nasalization.ttf);
+ }
+  h1 {
+    font-family: NASA-font;
+    font-size: 60pt;
+    color: red;
+  }
+
+  h3 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #313131;
+      font-size: 22pt;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #585858;
+  }
+
+  section {
+        padding: 15px;
+  }
+
+  button {
+      height: 40px;
+      width: 120px;
+      font-size: small;
+      font-weight: bold;
+      color: white;
+      background-color: lightskyblue;
+      border-color: transparent;
+      border-radius: 10px;
+      margin-top: 7px;
+  }
