@@ -1,24 +1,28 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
-    background-size: 1600px 1000px;
-    width: 100vw;
-    height: 100vh;
+    /* background-size: 1600px 1000px; */
+    width: 100%;
+    height: 100%;
   }
   /* What kind of selector is this? Class Selector*/
-  .logo {
+.logo {
     width: 100px;
     height: 100px;
     margin: 2% 8%;
   }
 
-  header {
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+header {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
   }
 
-  main {
+main {
     height: auto;
     width: 100%;
     display: grid;
@@ -26,35 +30,35 @@ body {
   }
 
   /* This is an element within an element selector */ 
-  nav > a {
+nav > a {
     margin: 2% 1% 2%;
     height: 15%;
     width: 15%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    border-radius: 20px;
-    background: #d47036;
-    padding: 20px;
+    border-radius: 10px;
+    background: #8caa7c;
+    padding: 10px;
     text-align: center;
     border: 2px solid #8f8e8e;
   }
 
-  .has-border {
+.has-border {
     border-radius: 20px;
     border: 2px solid #0795C3;
     background: none;
     padding: 20px;
   }
 
-  nav {
+nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     padding-right: 2%;
   }
   /* This is an ID selector */
-  #profile-pic {
+#profile-pic {
     width: 60%;
     height: 60%;
     border-radius: 50%;
@@ -62,39 +66,94 @@ body {
     grid-column: 2/3;
   }
 
-  h1 {
+h1 {
     color: #444444;
     grid-column: 2/3;
     margin: 3% auto;
     border-bottom: 5px solid #8caa7c;
   }
 
-  h2 {
+h2 {
     grid-column: 2/3;
     margin: 3% auto;
     font-style: italic;
   }
 
-  .small-text {
+.small-text {
     grid-column: 2/3;
     color: #8caa7c;
     font-size: 10px;
     margin: 3% auto;
   }
 
-  button {
+@font-face {
+    font-family: NASA-font;
+    src: url(../css/nasalization.ttf);
+ }
+  
+button {
     grid-column: 2/3;
-    margin: 3% auto;
-    width: 60%;
-    height: 15%;
+    margin: 5px auto;
+    width: 200px;
+    height: 42px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: oblique;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #73b0d8;
     padding: 20px;
-    padding-bottom: 8%;
+    padding-bottom: 5px;
     text-align: center;
     color: white;
-    letter-spacing: 12px;
+    /* letter-spacing: 12px; */
   }
+#portfolio {
+    letter-spacing: 10px;
+    padding: 5px;
+}
+#NASA {
+    font-family: NASA-font;
+    font-size: 18pt;
+    color: red;
+    background-color: white;
+    border-color: #444444;
+    font-style: normal;
+    padding: 5px;
+    letter-spacing: 8px;
+  }
+
+#nasa-link:active {
+    font-family: NASA-font;
+    font-size: 18pt;
+    color: red;
+    background-color: white;
+    border-color: #444444;
+    font-style: normal;
+    padding: 5px;
+    letter-spacing: 8px;
+    text-decoration: none;
+}
+
+#nasa-link:visited {
+    font-family: NASA-font;
+    font-size: 18pt;
+    color: red;
+    background-color: white;
+    border-color: #444444;
+    font-style: normal;
+    padding: 5px;
+    letter-spacing: 8px;
+    text-decoration: none;
+}
+
+#nasa-link:hover {
+  font-family: NASA-font;
+  font-size: 18pt;
+  color: blue;
+  background-color: white;
+  border-color: #444444;
+  font-style: normal;
+  padding: 5px;
+  letter-spacing: 8px;
+  text-decoration: none;
+}
