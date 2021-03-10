@@ -1,0 +1,203 @@
+@font-face {
+    font-family: truckin-font;
+    src: url(../css/KeeponTruckin.ttf);
+ }
+ @font-face {
+    font-family: that70sfont;
+    src: url(../css/that70sfont.ttf);
+ }
+
+body {
+    /* height: 300px; */
+    /* width: 300px; */
+    display: grid;
+    grid-template-columns: 300px, 300px, 300px;
+    grid-template-rows: 2fr, 1fr, 0.2fr, 1fr, 1fr, 0.2fr, 1fr,1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    font-size: 3.25em;
+    margin: 0px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    color: #90775a;
+    font-family: truckin-font;
+}
+
+h2 {
+    font-size: 2em;
+    color: #32b82d;
+    font-family: that70sfont;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: #c37846;
+    font-family: truckin-font;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin: 0px;
+
+}
+
+/* h6 {
+    font-size: 1em;
+    font-weight: bolder;
+} */
+
+hr {
+    width: 85%;
+    color: #cc5757;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    font-weight: bolder;
+}
+
+.profile-image {
+    grid-column: 1;
+    grid-row: 1/4;
+    background-image: url(../img/redForman.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-details {
+    grid-column: 1;
+    grid-row: 4/6;
+    margin: 10px;
+    justify-content: center;
+    /* text-align: center;
+    color: white; */
+    text-align: center;
+}
+
+.work-reference {
+    grid-column: 1;
+    grid-row: 6/9;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.personal-summary {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    /* justify-content:stretch; */
+    margin: 20px;
+}
+
+.core-skills {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: 10px;
+    /* justify-content: left; */
+}
+
+.work-history-title {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin: 10px;
+}
+
+.work-history {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+section.work-history > div.left {
+    width: 35%;
+    margin: 15px;
+}
+
+section.work-history > div.right {
+    width: 65%;
+    margin-top: 2.5em;
+}
+
+.work-history2 {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+section.work-history2 > div.left {
+    width: 35%;
+    margin: 10px
+}
+
+section.work-history2 > div.right {
+    width: 65%;
+    margin: 15px
+}
+
+.work-history3 {
+    grid-column: 2/4;
+    grid-row: 6/7;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+section.work-history3 > div.left {
+    width: 35%;
+    margin: 10px
+}
+
+section.work-history3 > div.right {
+    width: 65%;
+    margin: 15px
+}
+
+.academic-history-title {
+    grid-column: 2/4;
+    grid-row: 7/8;
+}
+
+.academic-history {
+    grid-column: 2/4;
+    grid-row: 8/9;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+section.academic-history > div.left {
+    width: 35%;
+    margin: 10px;
+}
+
+section.academic-history > div.right {
+    width: 65%;
+    /* margin-top: 2.5em; */
+    margin: 105x;
+}
