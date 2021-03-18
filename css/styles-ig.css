@@ -1,0 +1,59 @@
+@media (max-width: 800px) {
+    .container-column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .container-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: monospace;
+    color: tomato;
+    font-size: 3rem;
+    margin-top: 1%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    display: block;
+    color: gray;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-column {
+    flex: 25%;
+    max-width: 25%;
+}
+
+.container-column img {
+    vertical-align: middle;
+    width: 100%;
+}
