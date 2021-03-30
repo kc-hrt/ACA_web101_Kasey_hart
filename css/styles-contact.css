@@ -1,0 +1,59 @@
+body {
+  font-family: monospace;
+  color: black;
+  background-image: url("../img/70s-bg.jpg");
+  background-repeat: no-repeat;
+  
+}
+img {
+  width: auto;
+  height: 100%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: monospace;
+}
+
+input[type=submit] {
+  background-color: #379047;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+  font-family: monospace;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 20px;
+  background:white;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+textarea {
+  width:480px;
+}
+
+.required {
+  font-family: monospace;
+  font-weight: bold;
+}

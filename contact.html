@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - kasey</title>
+  <link rel="stylesheet" href="css/styles-contact.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contact</h1>
+    <!-- <img src="img/70s-bg.jpg" alt=""> -->
+    <form action="http://fotohut.org/dvorakAHF/ACA/send.php" method="post" onsubmit="return validation(this);">
+        <p class="required">Name *</p>
+        <input name="FirstName" required="" type="text" />
+        <p>Email</p>
+        <input name="EmailFrom" required="" type="text" />
+        <p class="required">Phone *</p>
+        <input name="Phone" required="" type="text" />
+
+        <h3 class="required">Message *</h3>
+        <textarea id="Message" name="Message" required="" rows="10"></textarea>
+
+        <p>How would you like to be contacted?</p>
+        <select name="/contactMethod">
+          <option value="Phone">Phone</option>
+          <option value="Email">Email</option> 
+        </select>
+
+        <input name="submit" type="submit" value="Submit" />
+      </form>
+      <h4>* Required Fields</h4>
+      <p>This page actually works, I created the PHP send page many years ago for a family member, so I recycled the send code by redirecting the Sumbit button you should end up on a home page.</p>  <p>If you enter a question or comment in the message box, I can respond.</p>
+    </div>
+</body>
+</html>

@@ -157,3 +157,51 @@ button {
   letter-spacing: 8px;
   text-decoration: none;
 }
+
+#TTT {
+  font-family: monospace;
+  font-size: 15pt;
+  font-weight: bold;
+  color: red;
+  background-color: white;
+  border-color: #444444;
+  font-style: normal;
+  padding: 5px;
+  letter-spacing: 8px;
+}
+
+#TTT-link:active {
+  font-family: monospace;
+  font-size: 15pt;
+  color: red;
+  background-color: white;
+  border-color: #444444;
+  font-style: normal;
+  padding: 5px;
+  letter-spacing: 8px;
+  text-decoration: none;
+}
+
+#TTT-link:visited {
+  font-family: monospace;
+  font-size: 15pt;
+  color: rgb(0, 68, 255);
+  background-color: white;
+  border-color: #444444;
+  font-style: normal;
+  padding: 5px;
+  letter-spacing: 8px;
+  text-decoration: none;
+}
+
+#TTT-link:hover {
+font-family: monospace;
+font-size: 15pt;
+color: rgb(0, 170, 255);
+background-color: white;
+border-color: #444444;
+font-style: normal;
+padding: 5px;
+letter-spacing: 8px;
+text-decoration: none;
+}
