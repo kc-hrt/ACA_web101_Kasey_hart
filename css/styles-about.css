@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  color: white;
+  color: #213319;
 }
 
 .split {
@@ -15,12 +15,37 @@ body {
 
 .left {
   left: 0;
-  background-color: #111;
+  /* background-color: #111; */
+  background-image: url(/img/brick-bg.jpg);
+
 }
 
+#left {
+  font-family: monospace;
+  font-size: 5em;
+  color: rgb(163, 36, 36);
+  text-shadow: white 0.15em .15em .25em;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  padding-bottom: 7%;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-style: italic;
+  color: rgb(64, 132, 82);
+  padding-bottom: 40px;
+}
+
+p {
+  padding-bottom: 30px;
+}
 .right {
   right: 0;
-  background-color: red;
+  background: color #b7b9b3;;
 }
 
 .centered {
@@ -32,7 +57,6 @@ body {
 }
 
 .centered img {
-  /* width: 250px; */
-  width: 250px;
+  width: 420px;
   border-radius: 50%;
 }
