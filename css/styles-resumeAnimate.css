@@ -154,5 +154,5 @@ h1{
 
 #myDiv {
   display: none;
-  text-align: center;
+  /* text-align: center; */
 }

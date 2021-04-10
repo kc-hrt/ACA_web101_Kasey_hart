@@ -28,11 +28,11 @@
 
 var myVar;
 
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+function pageFn() {
+  myVar = setTimeout(showPage, 5000);
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+  document.getElementById("myDiv").style.display = "grid";
 }
