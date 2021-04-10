@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - kasey</title>
     <link rel="stylesheet" href="./css/styles-resume.css">
+    <link rel="stylesheet" href="./css/styles-resumeAnimate.css">
+    
+    <script src="/animate.js"></script>
+    <script type="module">
+        import marquee from 'js/vanilla-marquee.min.js';
+      </script>
+
 </head>
 <body>
     <section class="profile-image">
@@ -26,9 +33,19 @@
     </section>
 
     <header class="top-header">
-        <h1>Reginald "Red" Forman</h1>
-        <h2>A beer in every hand,<br>
-            and a foot in every ass</h2>
+        <!-- <h1>Reginald "Red" Forman</h1> -->
+        <div class="container-title">
+            <h1>
+                <span class="title">Reginald "Red" Forman</span>
+            </h1>
+        </div>
+        <!-- MArquee animation using js -->
+        <div id="marquee-box">
+            <h2 id="demo">A beer in every hand, and a foot in every ass</h2>
+        </div>
+        <!-- <marquee class="marquee-box">  
+            <h2 class="marquee-text">A beer in every hand, and a foot in every ass </h2>  
+         </marquee> -->
         <hr>
     </header>
     <section class="personal-summary">
@@ -61,7 +78,7 @@
         <div class="right">
             <ul>
                 <li>Adds salt to roads during mild winter</li>
-                <li>Dirty girl claendars</li>
+                <li>Dirty girl calendar</li>
                 <li>Mufflers</li>
             </ul>
         </div>

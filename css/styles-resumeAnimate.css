@@ -1,0 +1,158 @@
+/* text loading */
+/* .container-title{
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  max-width: 900px;
+}
+
+.button{
+  float: left;
+  position: relative;
+  bottom: -65px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-10deg);
+  color: $red;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  
+  span{
+    transform: skew(-10deg);
+    display: block;
+    float: left;
+    text-shadow: $shadow 1px 1px, $shadow 2px 2px, $shadow 3px 3px, $shadow 4px 4px;
+  }
+}
+
+h1{
+  color: red;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;
+}
+
+.title{
+  transform: translateX(-50%) rotate(0deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+  
+  span {
+    transform: skew(-10deg);
+    display: block;
+    float: left;
+    text-shadow: $shadow 1px 1px, $shadow 2px 2px, $shadow 3px 3px;
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+  }
+}
+
+.title{
+  &:nth-child(1){
+    color: blue;
+  }
+  &:nth-child(2){
+    color: green;
+  }
+  &:nth-child(3){
+    color: yellow;
+  }
+} */
+
+
+
+
+
+
+
+/* js Marquee infor */
+
+.marquee-box {
+  /* background:hsla(210,100%,50%,1);
+  height:60px;
+  width:500px; */
+
+
+  /* height:60px;  */
+  width:9%;
+  overflow:hidden;
+  position:relative;
+}
+
+.marquee-text {
+  /* width: 300px; */
+  /* overflow: hidden; */
+  /* border: 1px solid #ccc; */
+  /* background: #ccc; 
+  /* overflow:hidden; */
+  position:relative;
+  background:hsla(90,100%,50%,.5);
+  cursor:pointer;
+  overflow:hidden;
+  position:absolute;
+  left:10px;
+  margin-right:10px;
+  top:10px;
+}
+
+
+
+/* loader  */
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
